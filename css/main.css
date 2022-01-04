@@ -394,6 +394,7 @@ h5 {
 }
 
 .btn-primary {
+  text-decoration: none;
   padding: 12px 24px;
   background: #D4B982;
   border: 1px solid #D4B982;
@@ -753,9 +754,7 @@ h5 {
   top: 0;
   left: 0;
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 119px;
   padding: 40px 20px 13px;
   -webkit-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -1186,7 +1185,11 @@ h5 {
 }
 
 .form-message .btn-primary {
-  margin-top: 32px;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 32px auto 0;
 }
 
 .form-message.with-inputs .form-table {
@@ -1994,7 +1997,7 @@ h5 {
 
   .header {
     padding: 10px 0;
-    max-height: 60px;
+    height: 60px;
   }
 
   .header .logo {
@@ -2059,6 +2062,9 @@ h5 {
 
   .nav .btn-primary {
     display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     margin: 64px auto 0;
   }
 
